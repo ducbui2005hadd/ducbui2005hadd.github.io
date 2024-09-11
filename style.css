@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.class-info {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 900px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.teacher {
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.teacher img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.students {
+    list-style-type: none;
+    padding: 0;
+}
+
+.students li {
+    margin: 10px 0;
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.students li.left {
+    justify-content: flex-start;
+}
+
+.students li.right {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.students img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.students li.right img {
+    order: 1;
+    margin-left: 10px;
+}
+
+.students li.left img {
+    margin-right: 10px;
+}
+
+.memories {
+    margin-top: 30px;
+}
+
+.memories h2 {
+    color: #555;
+}
+
+.memories ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.memories li {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.memory-images {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.memory-images img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.hidden {
+    display: none;
+}
